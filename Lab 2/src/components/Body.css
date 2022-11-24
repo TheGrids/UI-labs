@@ -1,0 +1,51 @@
+.fullscreen{
+    padding: 0 50px;
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img{
+    width: 40%;
+    cursor: pointer;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigfont{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.font{
+    font-size: 36px;
+    margin: 10px;
+}
+
+.border{
+    border: solid;
+    height: 40px;
+    min-width: 20px;
+}
